@@ -5,11 +5,36 @@
 }
 
 .btn-invisible {
-  color: white;
+  color: transparent;
   border: none;
-  background-color: white;
+  background-color: transparent;
+  scale: 0.8;
 }
 
 .appear {
   display: none;
+}
+
+div.stageTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-image: url("/assets/img/Stage2BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.proceed-stage-3 {
+  width: 100px !important;
+  background-color: #1b222c;
+  color: #fff;
+  border-color: #003153;
+}
+
+.proceed-stage-3:hover {
+  background-color: #003153;
+  color: #fff;
+  border-color: #1b222c;
 }

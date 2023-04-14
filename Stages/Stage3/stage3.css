@@ -2,9 +2,43 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75vh;
+  height: 80vh;
   flex-direction: column;
 }
 h1.text-center {
   width: 60%;
+  margin-bottom: 2%;
+  font-size: 28px;
+  color: grey;
+}
+div.text-center-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-image: url("/assets/img/stage3BH.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a.luck {
+  text-decoration: none;
+  color: grey;
+}
+
+.stage3-btn {
+  margin-top: 5%;
+  background-color: #808080;
+  border-color: white;
+}
+
+.appear {
+  display: none;
+}
+
+.stage4btn {
+  background-color: #808080;
+  border-color: white;
 }
